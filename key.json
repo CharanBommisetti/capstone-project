@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "project-nodejs-express",
+  "private_key_id": "fa0d1ece90e9b55c7ccd8b581818a42cbb7fdfdd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCl+oNE4F7WzOw6\nA/lv1b8PUOneJevoQ5XR5rtnxxayAG4vlBS8VirxjDkX0XHb1BU8rdba5m4PrltV\nh+x34KJXGjOCqTUsV3UFIZPHSD97iFIUp7YkpquUkTTbbmFWh7TqDFo1r4xBy2dX\nggHDJWd1IaDYyIK7NbKilmLld+yZqIEOh7bJWVGTtaX511RwCbEcMTrmoGamjwWw\ncPMqXyOk9UWMOSSOg6omYxyB1vZgnsdETQa/IJXZ58yr8CPNfrks+pV3Xwz06d4i\n6O6HIwylS2WaXrFE5fJB1+eKBKabdY4QB8wjWjXMJaCRpg7AvnpoEhFIdyK68x/v\nIqHFKU+3AgMBAAECggEAAuxbz9hiL2uyHSAipr+qWwGVRaZtwqSlhCD3Olj/hk64\n6zr8RpqFoHv++PNxhSQaRdeUu4W6csIEXUUEzWRfR5fhCy6uLQuJ84mi+cqH/KdP\ncjTf+h3lRtPBUEJyTsSUlmTjWS+d1JzThmMOrHXBc3SahrMatA5Mp2YXw3s0i/2s\nRQaJkvSXnMbtQ4i8ne6qInq4T5XXV3UgwqkTZahj7OpdmbGqY08RnaRVON1TtVJD\nolci+8Y4PfkfqCgmnm5t6cC1APNw2ssmWXCSRDNLo73GE7ATvtdtUox5RsLYnS0o\n4d3VokOBiQSiLP1ntBTOGjYkEhA1rsI5oArHvaux4QKBgQDenzgTbgerJhPKEvFQ\nv37HQmNp5KHODP5oPn75KP18BlnkXo9uJrz9gSrwVpx6EiCYy1gp7orvzdTJGW58\n+bnvr7sJCKn1zortgg2dQ2ZuVRst9VydVOlRxMNL2VsQsw1/TFPC0uE9Xh6qzITC\njsYxZ+jJlnrj/iKPcKJPrrxp4QKBgQC+3S45/8C2mEksFMwzal0oYkRJWWMTj9g+\n/V/hWeJyZvFMHdSoWUTqBz6lItpgrrDqzejPGCUao0iNSYSUUPIxWx/gYs0g9k41\n/EmS28YTFhwo2fnH7MUFu/3fHofVQon/yGL6gGJp9Ujzj9COWqJYJE5Z131YJlOS\nNDKAITpclwKBgQCdo7MqlwRZHgpvUgCNBDy6znjk+B/Xb34KxQ5WUr9EPp8Sxh7c\nihPTks6cB0igbAunBn60mpTJgEAH8rk5SABxCEfx+q+XPp1D147aaGq1ABDR92eQ\nhRr+as07/XqtlYyeMqcxUvBp6ybeHRp5Rm5zd7fwX10/6qoAVmqo7/u9IQKBgD5i\ncxKYCrhkDD6xSZFgqbRicil7Ywvoz2i/TpCM3ZxBE4uqkHC6RPEtjwdQ3goN71vA\nE+Fk5fPP/Q3ZQtFrp84EF+YyxROKDkRNAwtSdGqWpnufy6nSNQ/Lw44jH4jQJ+UH\n7Xotbn1to/ugPS3aaAfhTg7FhX3DgTtffkYtFjNfAoGBAJe6CsZQCLoX89NbVUz7\nQFUVk2XIgMptQJds8qv5jtParui7XIWDQqRqvzBr99Ky7eNB0rptLBzV5wez2tTh\n4iauovtNKzaSOSugVuQ98QXxMIg8446phr+WUPxw2Co/Ll33o48wTosJRtfuef0h\nsGwbZUFILBDXNJ8zzSkfzph1\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@project-nodejs-express.iam.gserviceaccount.com",
+  "client_id": "106814825652540804305",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40project-nodejs-express.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

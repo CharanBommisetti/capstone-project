@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <style>
+    body {
+      /* padding: 40px; */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f9ff;
+    }
+    .btn-main {
+      margin-top: 20px;
+    }
+
+      *{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+}
+.main-name{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: serif;
+}
+nav ul li a{
+    color: #444;
+}
+nav ul li:hover{
+    border-radius: 30px;
+    background-color: #F9A825;
+}
+.banner{
+    background: url(assets/homebanner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+    padding: 20px;
+    padding-top: 80px;
+}
+.banner-container h1{
+    font-size: 2.25rem;
+}
+.banner-container p{
+    font-size: 16px;
+}
+.banner-container .btn-color{
+    border: transparent;
+    color: black;
+}
+.button1:hover{
+    border: transparent;
+    background-color: #F9A825;
+}
+.about{
+    padding: 50px 0;
+    background: #f5f5f7;
+}
+.about-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-text{
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+}
+.small{
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: 600;
+}
+.about-text h2{
+    font-size: 2.3rem;
+}
+.about-text p{
+    font-size: 1.2rem;
+    color: #555;
+}
+.about-img{
+    flex: 1 1 400px;
+    padding: 40px;
+    padding-top: 50px;
+}
+.foodhub{
+    background-color: #f9fbfe;
+    padding-left: 40px;
+}
+.foodhub-head{
+    color: #666;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.foodhub-para{
+    color: #555;
+    font-size: 17px;
+}
+.food-card{
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+.food-card .food-card-img{
+    width: 87px;
+    height: 90px;
+}
+.food-card-title{
+    font-size: 22px;
+    font-weight: 500;
+    color: #323f4b;
+}
+.food-card-para{
+    color: #7b8794;
+    font-size: 16px;
+}
+.menu-sec{
+    padding-left: 40px;
+}
+.menu-card{
+    width: 260px;
+}
+.menu-card-image{
+    width: 280px;
+}
+.menu-head{
+    font-size: 28px;
+    font-weight: 700;
+    color: #666;
+    padding-left: 20px;
+}
+.menu-item-card{
+    border-radius: 16px;
+}
+.menu-item-image{
+    border-radius: 16px;
+}
+.menu-card-title{
+    text-align: center;
+    color: #323f4b;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.contactus{
+    padding-left: 50px;
+    background: rgba(243, 243, 243);
+}
+.contactus h1{
+    color: #666;
+    font-size: 42px;
+    font-weight: 500;
+}
+.contactus p{
+    color: #555;
+}
+.button-submit{
+    text-align: end;
+}
+.contact-head{
+    font-size: 28px;
+    color: #666;
+}
+.icon-contact i{
+    font-size: 18px;
+    color: #666;
+}
+.icon-contact a{
+    color: #555;
+    text-decoration: none;
+}
+.icon-contact span{
+    font-size: 18px;
+    color: #666;
+}
+.social-icon i{
+    padding: 8px;
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background-color: #666;
+    color: white;
+}
+.social-icon span{
+    padding-left: 8px;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Home page -->
+   <header class="container-fluid px-5 fixed-top">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+                <a class="navbar-brand flex flex-wrap" href="#">
+                    <img src="/assets/icon.jpeg" alt="" style="width: 70px;">
+                    <span class="main-name"><span class="text-warning">Food</span>Hub</span>
+                </a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse px-2" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 ">
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" href="#" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#about">About US</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#why">Why FoodHub?</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#contact">Contact US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <section class="banner p-5">
+        <div class="banner-container home text-center">
+            <h1 class="title-font  sm:text-4xl text-3xl mb-4 font-medium text-white">Get Delicious Food Any Time</h1>
+            <p class="text-white">Although the skills aren’t hard to learn, finding the happiness and finding the satisfaction and <br> finding fulfillment in continuously serving somebody else something good to eat, is what makes a really good restaurant.</p>
+            <div>
+                <a href="#menu"><button class="btn btn-warning button1 ">View Menu</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>We've been making healthy food last for 10 years</h2>
+                <p>
+                    At FoodHub, we’re passionate about one thing: food. Whether you’re a home cook, a food lover, or someone looking for culinary inspiration, we are here to guide you through the delightful world of flavors, recipes, and cooking tips. Our mission is to make every meal an enjoyable experience by providing a diverse range of recipes, meal plans, and expert resources for every kind of food enthusiast.
+                </p>
+                <p>FoodHub is your ultimate culinary companion, dedicated to bringing fresh ideas, practical solutions, and a sense of excitement to your kitchen. Whether you're whipping up quick weekday dinners or exploring elaborate dishes for a special occasion, we offer the tools, inspiration, and support you need to bring your culinary creations to life.</p>
+            </div>
+            <div class="about-img">
+                <img
+                    src="assets/about img.jpg"
+                    class="img-fluid rounded-top"
+                    alt=""
+                />   
+            </div>
+        </div>
+    </section>
+    <section class="foodhub pt-5 pb-5" id="why">
+        <div class="container">
+            <div class="row-12">
+                <div class="col-12">
+                    <h1 class="foodhub-head">Why FoodHub?</h1>
+                    <p class="foodhub-para">We’re more than just a recipe website—we’re your trusted culinary partner, dedicated to making cooking an enjoyable, stress-free, and inspiring experience</p>
+                    <div class="row pt-3">
+                        <div class="food-card col-4 p-3 mb-3 mx-2">
+                            <img src="assets/food-serve-icon.png" class="food-card-image">
+                            <h1 class="food-card-title mt-3">Food Service</h1>
+                            <p class="food-card-para">
+                                Experience fine dining at the comfort of your home. All our
+                                orders are carefully packed and arranged to give you the nothing
+                                less than perfect.
+                            </p>
+                        </div>
+                        <div class="food-card col-4 p-3 mb-3 mx-2">
+                            <img src="assets/fruits-icon.png" class="food-card-image">
+                            <h1 class="food-card-title mt-3">Fresh Food</h1>
+                            <p class="food-card-para">
+                                The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that you always get them tree to plate.
+                            </p>
+                        </div>
+                        <div class="food-card col-4 p-3 mb-3 mx-2">
+                            <img src="assets/offers-icon.png" class="food-card-image">
+                            <h1 class="food-card-title mt-3">Best Offers</h1>
+                            <p class="food-card-para p-3 pb-0 pt-0">
+                                Food Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu-sec pt-5 pb-5" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-head">Explore Menu</h1>
+                    <div class="row  pt-3">
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="/assets/nonveg-icon.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Non-Veg Starters</h1>
+                        </div>
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="assets/veg-starters.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Veg Starters</h1>
+                        </div>
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="assets/soups.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Soups</h1>
+                        </div>
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="assets/seafood.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Sea Food</h1>
+                        </div>
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="assets/biryani.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Main Course</h1>
+                        </div>
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="assets/noodles.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Noodles</h1>
+                        </div>
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="assets/salads.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Salads</h1>
+                        </div>
+                        <div class="menu-card col-3 mx-4 mb-3">
+                            <img src="assets/desserts.png" class="menu-card-image">
+                            <h1 class="menu-card-title mt-3">Desserts</h1>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contactus pt-5 pb-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>CONTACT US</h1>
+                    <p>Get in Touch with Us</p>
+                    <p>We're here to help! Whether you have a question, need support, or want to share feedback, feel free to contact us.</p>
+                    <div class="row pt-3 pb-4">
+                        <div class="col-4 col-12 col-xxl-4">
+                            <h2 class="contact-head">Our Office</h2>
+                            <hr class="w-75">
+                            <div class="flex flex-wrap icon-contact">
+                                <i class="bi bi-telephone-fill"></i>
+                                <a href="#"><span>+91 6220578886</span></a>
+                                <br><br>
+                            </div>
+                            <p>SR Nagar <br>1st Floor, Terran Buildings <br> KPHB<br> Hyderabad</p>
+                        </div>
+                        <div class="col-4 col-12 col-xxl-4">
+                            <h2 class="contact-head">Say Hello</h2>
+                            <hr class="w-75">
+                            <form action="#!">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 w-75 mb-1">
+                                        <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+                                    </div>
+                                    <div class="col-12 col-md-4 w-75 mb-1">
+                                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="email" name="email" value="" required>
+                                    </div>
+                                    <div class="col-12 col-md-4 w-75 mb-1">
+                                        <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" value="" required>
+                                    </div>
+                                    <div class="col-12 col-md-4 pb-3 w-75 mb-1">
+                                        <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                                    </div>
+                                    <div class="col-12 col-md-4 w-75">
+                                        <div class="button-submit">
+                                            <button class="btn btn-warning" type="submit">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4 col-12 col-xxl-4 keep">
+                            <h2 class="contact-head">Keep Connected</h2>
+                            <hr class="w-75">
+                            <p>For general inquiries: <a href="#" class="contact-a">info@foodhub.com</a><br>
+                                For customer support: <a href="#" class="contact-a">support@foodhub.com</a></p>
+                            <div class="flex flex-wrap social-icon pb-4">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <span>Twitter</span>
+                            </div>
+                            <div class="flex flex-wrap social-icon pb-4">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <span>Facebook</span>
+                            </div>
+                            <div class="flex flex-wrap social-icon">
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <span>Instagram</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="copyright">
+                        <p>&copy; 2014 FoodHub. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Bootstrap Modal -->
+  <div class="modal fade" id="loginSuccessModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title">Login Successful</h5>
+        </div>
+        <div class="modal-body">
+         🎉  You have successfully logged in!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Show the success modal on page load
+    const modal = new bootstrap.Modal(document.getElementById('loginSuccessModal'));
+    window.onload = () => modal.show();
+  </script>
+</body>
+</html>
